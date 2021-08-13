@@ -130,3 +130,14 @@ p {
 #myInput {
     color: #111;
 }
+@media(max-width:700px) {
+    .reklama {
+        display: flex;
+        margin:auto;
+
+    }
+    .reklama img{
+        width: 100%;
+        height: 100%;
+    }
+}
