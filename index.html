@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class = "reklama">
+    <img src="image/Screenshot_1.png">
+</div>
+<div class="allPage">
+    <div class="container">
+        <h2 class="title">Генератор на Отбори</h2>
+        <textarea
+                name=""
+                id="myInput"
+                cols="30"
+                rows="10"
+                placeholder="Въведете имената, като ги разделите със запетая и интервал (, )"
+        ></textarea
+        ><br />
+        <input type="number" placeholder="Брой играчи в отбор" id="numberTeam" />
+        <br />
+        <button
+                type="button"
+                id="buttons"
+                onclick="getInputValue()"
+                value="Submit"
+        >
+            Разбъркване
+        </button>
+    </div>
+    <div class="hidden teams">
+        <h2 class="hidden">Group List</h2>
+        <div id="output" class="output"></div>
+        <button id="reset" class="hidden">Restart</button>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
